@@ -6,7 +6,7 @@ There are two subdirectories, each has the following structure:
 - lnd: landmark information of mesh
 - processed: processed feature for learning
 
-For demostration purpose, we only included 2 ply training shapes and 6 ply test shapes in this repo. To download the full preprocessed training data set of FAUST, go to https://drive.google.com/file/d/1QT-cGkBIZ2elWU_GJ_nlwNhUh3TgeHMj/view?usp=sharing (~5G). Unzip **data.zip** and replace the **data** directory.
+For demostration purpose, we only included 2 ply training shapes and 6 ply test shapes in this repo, this sample data can be found at https://drive.google.com/drive/my-drive. To download the full preprocessed training data set of FAUST, go to https://drive.google.com/file/d/1QT-cGkBIZ2elWU_GJ_nlwNhUh3TgeHMj/view?usp=sharing (~5G). Unzip **data.zip** and replace the **data** directory.
 ## preprocess
 Go to directory **/preprocess** and run script **/preprocess_dataset.m**. This will preprocess all raw .ply data in directory **/data/ply** and compute SHOT descriptors, saving the processed data into **/data/processed**
 ## learn
