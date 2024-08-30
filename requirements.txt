@@ -1,0 +1,7 @@
+numpy==1.23.5
+scipy==1.10.0
+robust-laplacian==0.2.4
+torch==1.8.1
+torch-geometric==1.7.0
+potpourri3d==0.0.6
+plyfile==0.7.4
